@@ -6,7 +6,7 @@ public enum BodyTypes {
     LIFTBACK("Лифтбек"),
     CARGO2M("Фургон 2-местный"),
     WAGON5("Универсал 5-местный"),
-    WAGON7("Универсал 7-местынй"),
+    WAGON7("Универсал 7-местный"),
     CROSS("Кроссовер");
 
     private final String bodyType;
