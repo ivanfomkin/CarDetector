@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Loader {
-    private String pathToFile = "src/main/resources/database.csv";
     private HashMap<String, Model> database;
 
     public Loader() {
@@ -14,6 +13,7 @@ public class Loader {
 
     private void parseFile() {
         try {
+            String pathToFile = "src/main/resources/database.csv";
             List<String> lines = Files.readAllLines(Paths.get(pathToFile));
             String model;
             double engineCapacity;
